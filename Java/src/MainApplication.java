@@ -21,5 +21,7 @@ public class MainApplication extends Application {
         stage.setTitle("Visualizer");
         stage.setScene(scene);
         stage.show();
+
+        mainController.init();
     }
 }
