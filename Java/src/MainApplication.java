@@ -19,6 +19,7 @@ public class MainApplication extends Application {
         MainController mainController = loader.getController();
 
         stage.setTitle("Visualizer");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
 
